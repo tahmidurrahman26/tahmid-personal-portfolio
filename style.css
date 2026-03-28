@@ -15,10 +15,50 @@
 }
 
 .btn{
-    background-color: purple;
+    background-color: #A53DFF;
     color: white;
     height: 30px;
     width: 80px;
     margin: auto;
     border-radius: 5px;
+}
+
+.btnn{
+    background-color: #A53DFF;
+    color: white;
+}
+    
+.details{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    gap: 5px;
+    padding-top: 50px;
+}
+.details div{
+    border-radius: 5px;
+    background-color: #f6ebfe;
+    text-align: center;
+    height: 90px;
+    width: 300px;
+}
+.bio{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 15px ;
+    padding-left: 15px;
+}
+.p1{
+    font-size: 15px;
+    text-align: center;
+}
+.h3{
+    font: 60px;
+}
+.intro{
+    padding-top: 200px;
+    padding-left: 100px;
 }
